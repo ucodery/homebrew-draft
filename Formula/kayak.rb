@@ -1,21 +1,21 @@
 class Kayak < Formula
   desc "You ought to know about your artifact's key-data"
   homepage "https://github.com/ucodery/kayak"
-  version "0.6.0"
+  version "0.7.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ucodery/kayak/releases/download/v0.6.0/kayak-aarch64-apple-darwin.tar.xz"
-      sha256 "aa246304643681c9c3308054c4df6107b2483fb4fd25db6a23a2f365b743d2a3"
+      url "https://github.com/ucodery/kayak/releases/download/v0.7.0/kayak-aarch64-apple-darwin.tar.xz"
+      sha256 "eb83ac96cbd19b562c0a325d1636868c21517260788a1efdf003cba64c68828d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ucodery/kayak/releases/download/v0.6.0/kayak-x86_64-apple-darwin.tar.xz"
-      sha256 "03ef4c391cdf8dc7779738bbcdbc8ca6fe93e40c832fb9621250ca2c29783ed7"
+      url "https://github.com/ucodery/kayak/releases/download/v0.7.0/kayak-x86_64-apple-darwin.tar.xz"
+      sha256 "57fcaeaaf5547194aa3f05a474b3136647417f9e1dd9de75b8c102510fc6702e"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/ucodery/kayak/releases/download/v0.6.0/kayak-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "9e0ae951a0fcacf01b906fb5a8a189e46ddd48ef23d9528cdabeb6014b0664f3"
+      url "https://github.com/ucodery/kayak/releases/download/v0.7.0/kayak-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "1aa30f74b0f6c0e4140a67b70b5f81e7e9ad6d4672e10279e3143824c86f4df7"
     end
   end
 
